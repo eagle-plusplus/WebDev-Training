@@ -72,7 +72,7 @@ let c;
 
 console.log(a);*/
 
-let count = 0;
+/*let count = 0;
 
 document.getElementById("db").onclick = function(){
     count -= 1;
@@ -92,6 +92,60 @@ document.getElementById("ib").onclick = function(){
 
 let a = Math.floor(Math.random() * 6) + 1;
 
-console.log(a);
+console.log(a);*/
 
+/*let username = "jcdisGGGGodjioc          ";
+let phone = "89808-080";
+
+console.log(username.length);
+console.log(username.charAt(0));
+console.log(username.indexOf("c"));
+console.log(username.lastIndexOf("c"));
+console.log(username.trim());
+console.log(username.toLocaleUpperCase());
+console.log(username.toLocaleLowerCase());
+
+phone = phone.replaceAll("-","kk");
+
+console.log(phone);*/
+
+/*let username = "jcdisGGG Godjio";
+let first;
+let last;
+
+last = username.slice(username.indexOf(" ") + 1);
+first = username.slice(0, username.indexOf(" "));
+
+console.log(first);
+console.log(last);*/
+
+/*let ag = 21;
+
+if(ag>21){
+    console.log("adult");
+}else if(ag < 0){
+    console.log("what");
+}else{
+    console.log("child");
+}
+
+let online = true;
+
+if(online){
+    console.log("mkl");
+}*/
+
+document.getElementById("subb").onclick = function(){
+    if(document.getElementById("k").checked){
+        console.log("You sub");
+    }else{
+        console.log("no sub");
+    }
+
+    if(document.getElementById("a").checked){
+        console.log("You can drive");
+    }else{
+        console.log("You cannot drive");
+    }
+}
 
