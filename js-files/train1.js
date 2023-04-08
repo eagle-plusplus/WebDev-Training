@@ -4,7 +4,7 @@ console.log("helldo");
 
 //window.alert("ooops you are bad!");
 
-let x = 10;
+/*let x = 10;
 let name = "ektoras";
 let i = false;
 
@@ -22,10 +22,10 @@ console.log(i, "oksi");*/
 let y;
 let z; 
 
-y = String(3.12);
-z = Boolean("");
+//y = String(3.12);
+//z = Boolean("");
 
-console.log(typeof age);
+//console.log(typeof age);
 
 /*age = Number(age);
 age += 1;*/
@@ -135,7 +135,7 @@ if(online){
     console.log("mkl");
 }*/
 
-document.getElementById("subb").onclick = function(){
+/*document.getElementById("subb").onclick = function(){
     if(document.getElementById("k").checked){
         console.log("You sub");
     }else{
@@ -147,5 +147,114 @@ document.getElementById("subb").onclick = function(){
     }else{
         console.log("You cannot drive");
     }
+}*/
+
+/*let grade = "b";
+
+switch(grade){
+    case "a":
+        console.log("good");
+        break;
+    case "b":
+        console.log("ok");
+        break;
+    default:
+        console.log("EISAI VLAKAS");
 }
+
+let exam = 40;
+
+switch(true){
+    case exam > 95:
+        console.log("good");
+        break;
+    case exam > 50:
+        console.log("ok");
+        break;
+    default:
+        console.log("EISAI VLAKAS");
+}*/
+
+/*let temp = 31;
+
+if(temp > 0  && temp < 30){
+    console.log("good");
+
+}else{
+    console.log("EISAI VLAKAS");
+}
+
+if(temp > 0  || temp < 30){
+    console.log("good");
+
+}else{
+    console.log("EISAI VLAKAS");
+}
+
+let vlakas = true;
+
+if(!vlakas){
+    console.log("good");
+
+}else{
+    console.log("EISAI VLAKAS");
+}*/
+
+/*let usr = "";
+
+while(usr == "" || usr == null){
+    usr = window.prompt("name");
+}
+
+console.log(usr);*/ 
+
+/*let usr;
+
+do{
+    usr = window.prompt("name");
+}while(usr == "");
+
+console.log(usr);*/
+
+/*for(let i = 0; i<= 100; i++){
+    if(i == 5){
+        document.getElementById("cl").innerHTML += "<br>";
+
+    }
+    document.getElementById("cl").innerHTML += i;
+
+}*/
+
+/*let ppp;
+
+ppp = lol(9);
+
+function lol(j){
+    let i;
+    for(i = 0; i<=j; i++){
+        console.log(i);
+    }
+
+    return i;
+}
+-
+console.log("njjjjj");
+console.log(ppp);*/
+
+let agg = 1;
+
+agg >= 18 ? console.log("adult") : console.log("kid");
+
+console.log(`age ${agg}`);
+
+let text = `age ${agg}`;
+
+console.log(text);
+
+//agg = agg.toLocaleString(undefined, {style: "percent"});
+//agg = agg.toLocaleString(undefined, {style: "unit", unit: "celsius"});
+
+console.log(agg);
+
+
 
