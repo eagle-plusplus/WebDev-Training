@@ -241,7 +241,7 @@ function lol(j){
 console.log("njjjjj");
 console.log(ppp);*/
 
-let agg = 1;
+/*let agg = 1;
 
 agg >= 18 ? console.log("adult") : console.log("kid");
 
@@ -254,7 +254,89 @@ console.log(text);
 //agg = agg.toLocaleString(undefined, {style: "percent"});
 //agg = agg.toLocaleString(undefined, {style: "unit", unit: "celsius"});
 
-console.log(agg);
+console.log(agg);*/
+
+/*let fruit = ["apple", "orange", "kiwi"];
+let vegetables = ["onions", "carrots"];
+
+fruit.push("lemon");
+fruit.pop();
+fruit.unshift("iojkl");
+fruit.shift();
+
+let lenn = fruit.length;
+let ind = fruit.indexOf("apple");
+
+console.log(ind);
+
+for(let i = 0; i < fruit.length; i++){
+    console.log(fruit[i]);
+}
+
+fruit = fruit.sort();
+fruit = fruit.sort().reverse();
+
+for(let fr of fruit){
+    console.log(fr);
+}
+
+let lst = [fruit, vegetables];
+
+lst[0][1] = "not oranges";
+
+for(let l of lst){
+    for(let food of l){
+        console.log(food);
+    }
+}*/
+
+/*et num = [1,2,3,4];
+
+console.log(...num);
+
+let maxi = Math.max(...num);
+
+console.log(maxi);
+
+function sum(...numbers){
+    let total = 0;
+
+    for(let f of numbers){
+        total += f;
+    }
+    return total;
+}
+
+console.log(sum(...num));*/
+
+let std = ["fvkfr", "mfkr", "kfreklrlf"];
+
+//std.forEach(capitalize); 
+
+let s = std.map(capitalize);  //**************************** */
+
+function capitalize(element, index, array){
+    array[index] = element[0].toUpperCase() + element.substring(1);
+}
+
+console.log(std);
+console.log(s);
+
+let ages = [18, 17, 11, 11];
+
+let adults = ages.filter(check);
+
+console.log(adults);
+
+function check(element){
+    return element >= 15;
+}
+
+
+
+
+
+
 
 
 

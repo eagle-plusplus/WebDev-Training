@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(#7ebfb3, #a7f2e4);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#mainBox{
+    border-style: none;
+    border-radius: 25px;
+
+
+    width: 90%;
+    height: 90vh;
+    top: 10%;
+    left: 10%;
+
+    margin: auto;
+    
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+    background-color: #ebf2f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Poopins", sans-serif;
+
+}
+
+h1{
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+button{
+    letter-spacing: 2px;
+    color: #ebf2f1;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 12px 80px;
+
+    border-radius: 20px;
+    border: 1px none;
+    background-color: #194759;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover{
+    letter-spacing: 4px;
+}
+
+button:active{
+    outline: none;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    margin: 10px;
+}
