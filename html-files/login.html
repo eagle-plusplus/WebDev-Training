@@ -11,47 +11,76 @@
 <body>
     <div id="mainBox">
 
-        <div>
-            <h1>Sign Up</h1>
+        <div id="sign-in-cont">
+            <h1>Sign In</h1>
 
             <form action="lol.php" method="post">
 
                 <input type="text" id="username" name="username" placeholder="Username" required>
 
-                <br>
-
                 <input type="email" id="email" name="email" placeholder="e-mail" required>
-        
-                <br>
         
                 <input type="password" id="password" name="password" placeholder="Password" maxlength="30">
 
-                <br>
-                
                 <input type="password" id="rpassword" name="rpassword" placeholder="Retype Password" maxlength="30">
-        
-                <br>
-        
-                <div>
-                    <label for="a">boy</label>
-                    <input type="radio" id="a" name="a" value="boy">
-        
-                    <label for="b">girl</label>
-                    <input type="radio" id="b" name="b" value="girl">
-        
-                    <label for="c">walmart bag</label>
-                    <input type="radio" id="c" name="c" value="bag">
-                </div>
-        
-                <br>
 
                 <button>Login</button>
         
-                <input type="reset">
+            </form>
+        </div>
+            
+        <div id="sign-up-cont">
+            <h1>Sign Up</h1>
+
+            <form action="lol.php" method="post">
+
+                <input type="text" id="username" name="username" placeholder="Username" required>
         
+                <input type="password" id="password" name="password" placeholder="Password" maxlength="30">
+
+                <button>Sign Up</button>
         
             </form>
         </div>
+
+        <!--<div id="overlay-cont">
+            <div id="overlay">
+                <div id="left">
+                    <p>If you want login press here</p>
+                    <button class="ghost">Loogin</button>
+                </div>
+
+                <div id="right">
+                    <p>If you want to create an account press here</p>
+                    <button class="ghost">Sign Up</button>
+                </div>
+
+            </div>
+
+        </div> -->
+
+        <div class="overlay-container">
+            <div class="overlay">
+              <div class="overlay-panel overlay-left">
+                <h1 class="title">Hello <br> friends</h1>
+                <p>if Yout have an account, login here and have fun</p>
+                <button class="ghost" id="login">Login
+                  <i class="lni lni-arrow-left login"></i>
+                </button>
+              </div>
+              <div class="overlay-panel overlay-right">
+                <h1 class="title">Start yout <br> journy now</h1>
+                <p>if you don't have an account yet, join us and start your journey.</p>
+                <button class="ghost" id="register">Register
+                  <i class="lni lni-arrow-right register"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+
+
     </div>
     
 </body>

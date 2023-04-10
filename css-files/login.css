@@ -7,7 +7,7 @@ body{
 #mainBox{
     border-style: none;
     border-radius: 25px;
-
+    box-shadow: 0 14px 28px #4F7369, 0 10px 10px #4F7369;
 
     width: 90%;
     height: 90vh;
@@ -31,6 +31,8 @@ body{
 h1{
     font-weight: 700;
     letter-spacing: -1.5px;
+    color: #194759;
+
     margin: 0;
     margin-bottom: 15px;
 }
@@ -65,4 +67,13 @@ form{
 
 input{
     margin: 10px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 15px;
+    width: 100%;
+
+    font-family: "Poopins", sans-serif;
+    font-size: 13px;
+
 }
