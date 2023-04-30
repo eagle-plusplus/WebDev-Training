@@ -332,8 +332,30 @@ function check(element){
     return element >= 15;
 }
 
+let total = ages.reduce(checkout);
+console.log(total);
 
+function checkout(total, element){
+    return total + element;
+}
 
+let store = new Map([
+    ["shirt", 10],
+    ["pants", 34],
+    ["lol", 67]
+])
+
+let cart = 0;
+
+cart += store.get("shirt");
+console.log(cart);
+
+store.set("hat", 67);
+store.delete("lol");
+console.log(store.has("pants"));
+console.log(store.size);
+
+store.forEach((value, key) => console.log(`${key} ${value} @#$`));
 
 
 
